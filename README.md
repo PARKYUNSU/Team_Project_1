@@ -1,25 +1,57 @@
-# 머신러닝을 활용한 여행경비 예측
+<br>
+
+ ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+ ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+ ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+ ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+ ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+ 
+ ![bootstrap](https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+ ![looker](https://img.shields.io/badge/looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+ ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+<br>
+
+# P향저격
+머신러닝을 활용한 여행경비 예측
 
 ## 프로젝트 개요
 이 프로젝트는 여행자들을 위한 여행 경비 예측 솔루션을 개발하는 것을 목표로 합니다. Python을 사용하여 데이터 수집, EDA, 머신러닝 모델링 및 Flask 앱 배포를 통해 이를 구현하였습니다. 또한 Looker Studio를 사용하여 대시보드를 생성하여 사용자에게 직관적인 정보를 제공합니다.
 
 ## 주요 기술 및 라이브러리
-- Python
+- 주요 언어: Python
 - 데이터 수집: Selenium, Scrapy
-- 데이터 분석 및 머신러닝: Pandas, Scikit-Learn
-- 웹 개발: Flask
+- 데이터 분석 및 머신러닝: Pandas, Scikit-Learn, Xgboost, Catboost
+- 웹 개발: Flask, Bootstrap
 - 대시보드 생성: Looker Studio
 
 ## 프로젝트 세부 내용
-1. **데이터 수집**: Selenium 및 Scrapy를 사용하여 여행 관련 데이터를 크롤링하였습니다.
+1. **데이터 수집**: Selenium 및 Scrapy를 사용하여 여행 관련 데이터를 크롤링하였습니다.<br>
+   a. 항공권<br>
 
-2. **데이터 분석 및 전처리**: 크롤링한 데이터를 Pandas를 활용하여 탐색적 데이터 분석(EDA)을 수행하였습니다. 데이터 전처리를 통해 모델링에 사용할 준비를 마쳤습니다.
+   - 데이터 출처 :
+   - 데이터 형태 : (43449, 11)<br>
+   - 검색 기간 : 2023.08.01 - 2023.10.31<br>
+   - 검색 도구 : Selenium<br>
+   
+   b. 호텔
+   - 데이터 형태 : (13751, 13)<br>
+   - 검색 기간 : 2023.08.01 - 2023.10.31<br>
+   - 검색 도구 : Scrapy<br>
+   
+   c. 렌트카
+   - 데이터 형태 : (13751, 13)<br>
+   - 검색 기간 : 2023.08.01 - 2023.10.23 [크롤링 당일 23일이 마지막데이터]<br>
+   - 검색 도구 : Selenium<br>
 
-3. **머신러닝 모델링**: 여행 경비를 예측하기 위한 머신러닝 모델을 구축하였습니다. Scikit-Learn 라이브러리를 사용하여 모델 학습 및 평가를 진행하였습니다.
+3. **데이터 분석 및 전처리**: 크롤링한 데이터를 Pandas를 활용하여 탐색적 데이터 분석(EDA)을 수행하였습니다. 데이터 전처리를 통해 모델링에 사용할 준비를 마쳤습니다.
 
-4. **Flask 웹 애플리케이션**: 머신러닝 모델을 Flask를 사용하여 웹 애플리케이션으로 개발하였습니다. 사용자는 여기에서 여행 경비를 예측하고 결과를 확인할 수 있습니다.
+4. **머신러닝 모델링**: 여행 경비를 예측하기 위한 머신러닝 모델을 구축하였습니다. Scikit-Learn 라이브러리를 사용하여 모델 학습 및 평가를 진행하였습니다.
 
-5. **Looker Studio 대시보드**: Looker Studio를 활용하여 사용자에게 직관적인 대시보드를 제공하였습니다. 시각화를 통해 여행 경비 및 예측 결과를 시각적으로 확인할 수 있습니다.
+5. **Flask 웹 애플리케이션**: 머신러닝 모델을 Flask를 사용하여 웹 애플리케이션으로 개발하였습니다. 사용자는 여기에서 여행 경비를 예측하고 결과를 확인할 수 있습니다.
+
+6. **Looker Studio 대시보드**: Looker Studio를 활용하여 사용자에게 직관적인 대시보드를 제공하였습니다. 시각화를 통해 여행 경비 및 예측 결과를 시각적으로 확인할 수 있습니다.
 
 ## 프로젝트 구성
 프로젝트의 디렉토리 구조 및 파일 설명은 다음과 같습니다:
