@@ -63,7 +63,9 @@ Selenium 및 Scrapy를 사용하여 여행 관련 데이터를 크롤링하였�
    <br>
    
 ### 2. 데이터 분석 및 전처리
-크롤링한 데이터를 Pandas를 활용하여 탐색적 데이터 분석(EDA)을 수행하였습니다. 데이터 전처리를 통해 모델링에 사용할 준비를 마쳤습니다.<br><br>
+크롤링한 데이터를 Pandas를 활용하여 탐색적 데이터 분석(EDA)을 수행하였습니다. 데이터 전처리를 통해 모델링에 사용할 준비를 마쳤습니다.<br>
+###### [자세한 EDA 자료는 PPT를 참조해 주십시오.](https://github.com/사용자명/저장소명/raw/main/project6/AI_18_한주호_AI_18_박윤수_AI_18_정지현_AI_18_조재현_AI_18_김소연_TP1_발표자료.pptx)<br>
+
 
 ### 3. 머신러닝 모델링
 여행 경비를 예측하기 위한 머신러닝 모델을 구축하였습니다. Scikit-Learn 라이브러리를 사용하여 항공권, 호텔, 렌트카에대한 모델 학습 및 평가를 진행하였습니다.<br>
@@ -121,6 +123,6 @@ Looker Studio를 활용하여 사용자에게 직관적인 대시보드를 제�
 1. 데이터 수집: `data/` 디렉토리에 크롤링한 데이터를 저장하십시오.
 2. 데이터 전처리 및 모델링: `notebooks/` 디렉토리의 Jupyter Notebook을 참조하여 데이터 전처리 및 머신러닝 모델링을 진행하십시오.
 3. Flask 웹 애플리케이션 실행: `webapp/` 디렉토리에서 Flask 애플리케이션을 실행하십시오.
-4. Looker 대시보드: 대시보드는 [주소](https://lookerstudio.google.com/s/tGdmrUOyA1.)를 이용해주십시오.
+4. Looker 대시보드: 대시보드는 [주소](https://lookerstudio.google.com/s/tGdmrUOyA1.)를 이용해 주십시오.
 
 
