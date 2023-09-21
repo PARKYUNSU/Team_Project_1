@@ -102,11 +102,11 @@ Selenium 및 Scrapy를 사용하여 여행 관련 데이터를 크롤링하였�
 
 ### 5. Flask 웹 애플리케이션
 머신러닝 모델을 Flask를 사용하여 웹 애플리케이션으로 개발하였습니다. 사용자는 여기에서 여행 경비를 예측하고 결과를 확인할 수 있습니다.
-<img src="https://github.com/PARKYUNSU/team_project_1/assets/125172299/46dc052d-97b0-485e-9800-93458899174d" width="300"><br><br>
+<img src="https://github.com/PARKYUNSU/team_project_1/assets/125172299/46dc052d-97b0-485e-9800-93458899174d" width="450"><br><br>
 
 ### 6. Looker Studio 대시보드
 Looker Studio를 활용하여 사용자에게 직관적인 대시보드를 제공하였습니다. 시각화를 통해 여행 경비 및 예측 결과를 시각적으로 확인할 수 있습니다.<br><br>
-<img src="https://github.com/PARKYUNSU/team_project_1/assets/125172299/372c25b7-ec36-48d2-b666-0a9397dff146" width="300"><br><br>
+<img src="https://github.com/PARKYUNSU/team_project_1/assets/125172299/372c25b7-ec36-48d2-b666-0a9397dff146" width="450"><br><br>
 
 ## 프로젝트 구성
 프로젝트의 디렉토리 구조 및 파일 설명은 다음과 같습니다:
