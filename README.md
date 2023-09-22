@@ -120,9 +120,7 @@ Looker Studio를 활용하여 사용자에게 직관적인 대시보드를 제�
 ## 실행 가이드
 프로젝트 실행을 위한 가이드:
 
-1. 데이터 수집: `data/` 디렉토리에 크롤링한 데이터를 저장하십시오.
-2. 데이터 전처리 및 모델링: `notebooks/` 디렉토리의 Jupyter Notebook을 참조하여 데이터 전처리 및 머신러닝 모델링을 진행하십시오.
-3. Flask 웹 애플리케이션 실행: `webapp/` 디렉토리에서 Flask 애플리케이션을 실행하십시오.
+1. 데이터 수집: `crawling/` 디렉토리에 크롤링한 데이터를 저장하십시오.
+2. 데이터 전처리 및 모델링: `EDA_model/` 디렉토리의 Jupyter Notebook을 참조하여 데이터 전처리 및 머신러닝 모델링을 진행하십시오.
+3. Flask 웹 애플리케이션 실행: `flaks/` 디렉토리에서 app.py로 Flask 애플리케이션을 실행하십시오.
 4. Looker 대시보드: 대시보드는 [주소](https://lookerstudio.google.com/s/tGdmrUOyA1.)를 이용해 주십시오.
-
-
