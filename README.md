@@ -16,6 +16,7 @@
 # P향저격
 MBTI 유형 중 P형 성향을 가진 여행자들을 대상으로 하는 웹서비스로, 여행 경비 예측 정보를 제공합니다.
 
+#### [프로젝트 영상](https://drive.google.com/file/d/1rtFyH2BNI5RusamXUReSBPHVvKX6r6X5/view?usp=sharing)<br>
 
 ## 프로젝트 개요
 이 프로잭트는 2023년 8월부터 10월까지의 데이터를 활용하여 머신러닝 모델을 구축하여, 미래의 여행 경비를 예측합니다. Python을 사용하여 데이터 수집, EDA, 머신러닝 모델링 및 Flask 앱 배포를 통해 이를 구현하였습니다. 또한 Looker Studio를 사용하여 대시보드를 생성하여 사용자에게 직관적인 정보를 제공합니다.<br><br>
@@ -65,7 +66,7 @@ Selenium 및 Scrapy를 사용하여 여행 관련 데이터를 크롤링하였�
    
 ### 2. 데이터 분석 및 전처리
 크롤링한 데이터를 Pandas를 활용하여 탐색적 데이터 분석(EDA)을 수행하였습니다. 데이터 전처리를 통해 모델링에 사용할 준비를 마쳤습니다.<br>
-###### [자세한 EDA 자료는 PPT를 참조해 주십시오.](https://github.com/사용자명/저장소명/raw/main/project6/AI_18_한주호_AI_18_박윤수_AI_18_정지현_AI_18_조재현_AI_18_김소연_TP1_발표자료.pptx)<br>
+#### [자세한 EDA 자료는 PPT를 참조해 주십시오.](https://docs.google.com/presentation/d/1oJrl27h-p-fvqlQOZyKBtnyfCmNa39Ia/edit?usp=sharing&ouid=106359359511369936680&rtpof=true&sd=true)<br>
 
 
 ### 3. 머신러닝 모델링
